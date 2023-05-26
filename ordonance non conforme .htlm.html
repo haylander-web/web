@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Vérification d'ordonnance&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Style pour le corps de la page */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #f0f0f0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Style pour les titres */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>h1, h2, h3 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Style pour les boutons */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>button {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #4CAF50;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 4px 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Vérification d'ordonnance&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Informations du médecin&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="nom-medecin"&gt;Nom :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="nom-medecin" name="nom-medecin"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="prenom-medecin"&gt;Prénom :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="prenom-medecin" name="prenom-medecin"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="numero-medecin"&gt;Numéro :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="numero-medecin" name="numero-medecin"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Informations du pharmacien&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="nom-pharmacien"&gt;Nom :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="nom-pharmacien" name="nom-pharmacien"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="prenom-pharmacien"&gt;Prénom :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="prenom-pharmacien" name="prenom-pharmacien"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="numero-pharmacien"&gt;Numéro :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="numero-pharmacien" name="numero-pharmacien"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Informations du patient&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="nom-patient"&gt;Nom :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="nom-patient" name="nom-patient"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="prenom-patient"&gt;Prénom :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="prenom-patient" name="prenom-patient"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="date-naissance-patient"&gt;Date de naissance :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="date-naissance-patient" name="date-naissance-patient"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="numero-securite-sociale"&gt;Numéro de sécurité sociale :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="numero-securite-sociale" name="numero-securite-sociale"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Informations sur l'ordonnance&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="medicament"&gt;Médicament :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="medicament" name="medicament"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="dosage"&gt;Dosage :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="dosage" name="dosage"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label for="duree-traitement"&gt;Durée du traitement :&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="duree-traitement" name="duree-traitement"&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button type="button" id="verifier-ordonnance"&gt;Vérifier l'ordonnance&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="resultat"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Fonction pour vérifier si les champs sont remplis</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function checkFields() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var doctorID = document.getElementById("doctorID").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var pharmacistID = document.getElementById("pharmacistID").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var patientID = document.getElementById("patientID").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var dosage = document.getElementById("dosage").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var duration = document.getElementById("duration").value;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (doctorID == "" || pharmacistID == "" || patientID == "" || dosage == "" || duration == "") {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>alert("Veuillez remplir tous les champs");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>return false;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>return true;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Fonction pour vérifier l'ordonnance</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function checkPrescription() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!checkFields()) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>var doctorID = document.getElementById("doctorID").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var pharmacistID = document.getElementById("pharmacistID").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var patientID = document.getElementById("patientID").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var dosage = document.getElementById("dosage").value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var duration = document.getElementById("duration").value;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>var result = document.getElementById("result");</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var message = "L'ordonnance est valide.";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Vérification du dosage et de la durée</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (dosage &lt; 1 || dosage &gt; 100 || duration &lt; 1 || duration &gt; 30) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>message = "L'ordonnance est invalide.";</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Vérification des identifiants</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (doctorID != "123" || pharmacistID != "456" || patientID != "789") {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>message = "L'ordonnance est invalide.";</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>result.innerHTML = message;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Ajout d'un événement pour vérifier l'ordonnance lorsqu'on clique sur le bouton</p>
+<p class="p1"><span class="Apple-converted-space">    </span>var checkButton = document.getElementById("verifier-ordonnance");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>checkButton.addEventListener("click", checkPrescription);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>

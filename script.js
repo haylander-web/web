@@ -12,29 +12,13 @@
   </style>
 </head>
 <body>
-<p class="p1">function validerOrdonnance() {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Code pour valider l'ordonnance et effectuer les actions nécessaires</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Calcul de la durée du traitement et du nombre de boîtes</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var posologie = document.getElementById('posologie').value;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var dureeTraitement = document.getElementById('duree-traitement').value;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var nombreBoites = Math.ceil(dureeTraitement / posologie);</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('duree-traitement-result').textContent = dureeTraitement + " jours";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('nombre-boites-result').textContent = nombreBoites;</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Vérification de la durée du traitement écoulée</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var dateFinTraitement = new Date();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>dateFinTraitement.setDate(dateFinTraitement.getDate() + parseInt(dureeTraitement));</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var maintenant = new Date();</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>if (maintenant &gt; dateFinTraitement) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var notification = document.getElementById('notification');</p>
-<p class="p1"><span class="Apple-converted-space">    </span>notification.textContent = "La durée du traitement est écoulée.";</p>
-<p class="p1"><span class="Apple-converted-space">    </span>notification.classList.add('notification-error');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>return false;</p>
+<p class="p1">// Fonction pour vérifier l'ordonnance</p>
+<p class="p1">function checkPrescription() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Ton code JavaScript pour vérifier l'ordonnance ici</p>
 <p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">// Ajout d'un événement pour vérifier l'ordonnance lorsqu'on clique sur le bouton</p>
+<p class="p1">var checkButton = document.getElementById("verifier-ordonnance");</p>
+<p class="p1">checkButton.addEventListener("click", checkPrescription);</p>
 </body>
 </html>
